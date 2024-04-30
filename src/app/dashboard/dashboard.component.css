@@ -1,0 +1,66 @@
+/* DashboardComponent's private CSS styles */
+
+/* Body Styles */
+body {
+  background-color: red; /* Light gray background */
+  font-family: Arial, sans-serif; /* Choose a readable font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading Styles */
+h1, h2 {
+  text-align: center;
+  color: #333; /* Dark gray color for headings */
+  margin-top: 20px; /* Add some space above headings */
+}
+
+h1 {
+  font-size: 36px; /* Larger font size for main heading */
+}
+
+h2 {
+  font-size: 24px; 
+}
+
+/* Heroes Menu Styles */
+.heroes-menu {
+  max-width: 1000px;
+  margin: 20px auto; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-radius: 20px;
+  overflow: hidden; 
+  background-color: #3498db; 
+}
+
+/* Link Styles */
+a {
+  background-color: purple; 
+  border-radius: 5px;
+  padding: 10px 20px; 
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s; 
+  text-align: center;
+  width: 100%;
+  min-width: 70px;
+  margin: 10px auto; 
+  box-sizing: border-box;
+}
+
+
+@media (min-width: 600px) {
+  a {
+    width: calc(33.33% - 20px); 
+    max-width: 200px; 
+  }
+}
+
+/* Hover Styles */
+a:hover {
+  background-color: blue; 
+}
